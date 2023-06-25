@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+/* HomeScreen Styles */
+.overall-bg {
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.chatbot-heading {
+  font-size: 30px;
+  color: #333;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.image {
+  width: 150px;
+}
+
+.chat-container {
+  padding: 10px;
+}
+
+.messagebox {
+  background-color: #398bf7;
+  border-radius: 1rem;
+  margin-top: 2px;
+  height: 35px;
+  width: 100%;
+  padding: 8px;
+  border: 0px solid gray;
+  font-size: 16px;
+  color: #fff;
+}
+
+.candidate {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+.defaultmessagebox1 {
+  background-color: #61b32a;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.defaultmessagebox2 {
+  background-color: #7b7fea;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.defaultmessagebox3 {
+  background-color: #613d58;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.defaultmessagebox4 {
+  background-color: #f99109;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.user-input {
+  background-color: #c4cad2;
+  height: 52px;
+  border-width: 0;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 15px;
+  font-size: 16px;
+  color: #333;
+  caret-color: #333; /* Add this line to set the caret color to black */
+}
+
+
+.send-msg-btn {
+  background-color: #cbd2d9;
+  height: 52px;
+  border-width: 0;
+  border-radius: 10px;
+  margin: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.emoji-picker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.emoji-picker span {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.likestyling {
+  font-size: 25px;
+  color:black;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 2px;
+}
+
+.user-list {
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: blue;
+  display: flex;
+  flex-wrap: wrap; /* Added to wrap user names to the next line */
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /* Added to add spacing between user names */
+}
+
+
+/* Custom Styling for Likes */
+.loveIcon:hover {
+  cursor: pointer;
+}
+
+.loveIcon {
+  user-select: text;
+}
+
+.loveIcon:active,
+.loveIcon::selection {
+  user-select: none;
+}
